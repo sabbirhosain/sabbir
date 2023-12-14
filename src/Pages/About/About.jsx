@@ -38,8 +38,10 @@ const About = () => {
         <div className="container">
           <div className="row align-items-center py-5">
             <div className="col-md-4">
-              <div className="round-image-container">
-                <img src={image} alt='' className="round-image" />
+              <div className="d-flex d-sm-block align-items-center align-items-sm-start justify-content-center justify-content-sm-start">
+                <div className="round-image-container">
+                  <img src={image} alt='' className="round-image" />
+                </div>
               </div>
             </div>
             <div className="col-md-8">
@@ -183,7 +185,7 @@ const About = () => {
         </div>
       </section>
 
-      
+
     </Layout>
   )
 }

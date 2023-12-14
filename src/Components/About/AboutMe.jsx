@@ -7,8 +7,10 @@ const AboutMe = () => {
   return (
     <>
       <div className="col-md-4">
-        <div className="round-image-container">
-          <img src={image} alt='' className="round-image" />
+        <div className="d-flex d-sm-block align-items-center align-items-sm-start justify-content-center justify-content-sm-start py-5 py-sm-0">
+          <div className="round-image-container">
+            <img src={image} alt='' className="round-image" />
+          </div>
         </div>
       </div>
       <div className="col-md-8">
