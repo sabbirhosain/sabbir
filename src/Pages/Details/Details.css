@@ -1,0 +1,87 @@
+.breadcrumb {
+  position: relative;
+  background-color: #26282b;
+  margin: 0;
+  padding: 30px 0;
+  border-radius: 0;
+}
+
+.breadcrumb .bread-list {
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 2px;
+  background-color: #2e3135;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  float: none;
+}
+
+.breadcrumb__link {
+  text-decoration: none;
+}
+
+
+/* project section */
+
+.project__info {
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-family: var(--secondaryFont-Family);
+}
+
+.Project__image__box {
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+  border: 3px solid;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  position: relative;
+  cursor: pointer;
+
+}
+
+.Project__image {
+  width: 100%;
+  height: auto;
+  transition: transform 10s ease-in-out;
+}
+
+.Project__image__box:hover .Project__image {
+  transform: translateY(-79%);
+}
+
+@media screen and (max-width: 576px) {
+  .Project__image__box:hover .Project__image {
+    transform: translateY(-70%);
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .Project__image__box {
+    max-height: 400px;
+  }
+
+  .Project__image__box:hover .Project__image {
+    transform: translateY(-60%);
+  }
+}
+
+.overview {
+  padding: 30px 20px;
+  box-shadow: 0px 0 30px rgba(55, 81, 126, 0.08)
+}
+
+.details__lang>.pro__lang {
+  font-size: 10px;
+  font-weight: 600;
+  color: black;
+  padding: 5px 8px;
+  border: 1px solid #FFC000;
+  border-radius: 25px;
+  margin: 0 2px 5px;
+  font-family: var(--secondaryFont-Family);
+  transition: all 0.5s;
+  cursor: default;
+}
