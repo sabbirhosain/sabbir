@@ -142,13 +142,13 @@
 
 /* responsive  */
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 400px) {
   .image-background {
     height: 60vh;
   }
 
   .img-bg-text h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
-  
+
 }
