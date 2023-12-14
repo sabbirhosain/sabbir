@@ -18,9 +18,10 @@
   font-family: var(--secondaryFont-Family);
 }
 
-.footer__text{
+.footer__text {
   font-weight: 600;
 }
+
 .social-link {
   width: 40px;
   height: 40px;
@@ -32,17 +33,27 @@
   color: black;
   transition: all 0.3s;
   font-size: 0.8rem;
-  &:hover{
+
+  &:hover {
     color: white;
     background-color: #FFC000;
   }
 }
-.footer__bottom{
+
+.footer__bottom {
   font-weight: 700;
   font-family: var(--secondaryFont-Family);
   text-transform: capitalize;
   word-spacing: -2px;
 }
-.author__name{
+
+.author__name {
   color: #FFC000;
+}
+
+@media only screen and (max-width: 576px) {
+  .footer__name {
+    font-size: 25px;
+  }
+
 }
