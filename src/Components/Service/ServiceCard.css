@@ -2,6 +2,7 @@
   border: 1px solid #FFC000;
   padding: 20px 20px;
   position: relative;
+  background-color: #fff;
 }
 
 .service-wrap::before {

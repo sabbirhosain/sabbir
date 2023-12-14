@@ -70,7 +70,8 @@
 
 .overview {
   padding: 30px 20px;
-  box-shadow: 0px 0 30px rgba(55, 81, 126, 0.08)
+  box-shadow: 0px 0 30px rgba(55, 81, 126, 0.08);
+  background-color: white;
 }
 
 .details__lang>.pro__lang {
