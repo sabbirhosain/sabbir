@@ -1,0 +1,24 @@
+.counter__box{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-bottom: 4px solid #FFC000;
+}
+.counter__body{
+  color: #444444;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+.count__icon{
+  color: #FFC000;
+  font-size: 30px;
+  margin: 0;
+}
+.counter{
+  font-size: 20px;
+  font-family: 'Orbitron', sans-serif;
+  margin:10px 0;
+}
+.counter__title{
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Orbitron', sans-serif;
+}

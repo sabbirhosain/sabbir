@@ -1,0 +1,84 @@
+.service-wrap {
+  border: 1px solid #FFC000;
+  padding: 20px 20px;
+  position: relative;
+}
+
+.service-wrap::before {
+  content: "";
+  position: absolute;
+  border-left: 3px solid #FFC000;
+  border-top: 3px solid #FFC000;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+}
+
+.service-wrap:hover:before {
+  height: 100%;
+  width: 100%;
+}
+
+.service-wrap::after {
+  content: "";
+  position: absolute;
+  border-right: 3px solid #FFC000;
+  border-bottom: 3px solid #FFC000;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  width: 40px;
+}
+
+.service-wrap:hover::after {
+  height: 100%;
+  width: 100%;
+}
+
+.service-wrap:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(https://i.ibb.co/mykzQks/services1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: local;
+  transition: all .5s;
+}
+
+.service-icon {
+  position: relative;
+}
+
+.service-icon i {
+  font-size: 40px;
+  color: #e8bc00;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.service-wrap .service__title {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 17px;
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.service-wrap .service__text {
+  font-family: 'Roboto', sans-serif;
+}
+
+.service-wrap:hover .service__title,
+.service-wrap:hover .service__text {
+  color: #fff;
+}
+
+.service__btn {
+  color: #FFC000;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  cursor: pointer !important;
+  text-transform: uppercase;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}

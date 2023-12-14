@@ -1,0 +1,41 @@
+/* Skill Section */
+.skill__box {
+  padding: 20px;
+  border: 1px solid #FFC000;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.skill__title {
+  color: black !important;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.skill__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill__name__box {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid #FFC000;
+  border-radius: 10px;
+  margin: 10px 10px 10px 0px;
+}
+
+.skill__img {
+  width: 30px;
+}
+
+.skill__name {
+  font-weight: bold;
+  font-family: var(--secondaryFont-Family);
+}

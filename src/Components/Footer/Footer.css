@@ -1,0 +1,48 @@
+.footer {
+  background-color: white;
+}
+
+.footer__name {
+  color: #343a40;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.footer__title {
+  color: #FFC000 !important;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-top: 5px;
+  font-family: var(--secondaryFont-Family);
+}
+
+.footer__text{
+  font-weight: 600;
+}
+.social-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #FFC000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  transition: all 0.3s;
+  font-size: 0.8rem;
+  &:hover{
+    color: white;
+    background-color: #FFC000;
+  }
+}
+.footer__bottom{
+  font-weight: 700;
+  font-family: var(--secondaryFont-Family);
+  text-transform: capitalize;
+  word-spacing: -2px;
+}
+.author__name{
+  color: #FFC000;
+}

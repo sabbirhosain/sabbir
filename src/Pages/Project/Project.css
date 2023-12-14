@@ -1,0 +1,108 @@
+.form-search {
+  width: 100%;
+  background: #fff;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 40px 25px 20px 25px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  /* margin-top: 70px; */
+  margin-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+  .form-search-position {
+    position: relative;
+    /* bottom: 104px; */
+    z-index: 1;
+  }
+}
+
+.form-search .form-control {
+  font-size: 14px;
+  color: #999999;
+  border-radius: 0;
+  height: 50px;
+  padding-left: 18px;
+  border-color: #FFC000;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-search .form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-search .form-control::placeholder {
+  color: #999999;
+}
+
+.form-search .form-group {
+  margin-bottom: 20px;
+}
+
+.form-search .form-group .nice-select {
+  margin-bottom: 20px;
+}
+
+.form-search button {
+  width: 100%;
+  font-size: 13px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  border: 0;
+  background: #cca772;
+  height: 50px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-select-custom {
+  width: 100%;
+}
+
+.form-select-custom select {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  border: 1px solid #FFC000;
+  background: #fff url("../../assets/Images/down-arrow.png") no-repeat;
+  background-size: 11px;
+  background-position: right 15px center;
+  padding-left: 18px;
+  color: #999999;
+  font-size: 14px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-select-custom select:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+@media (min-width: 1200px) {
+  .row>.gutters-19 {
+    padding-right: 9.5px;
+    padding-left: 9.5px;
+  }
+}
+
+.project__item {
+  padding: 0 4%;
+  /* margin-top: 50px; */
+}
+
+.pagination__btn {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #FFC000;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}

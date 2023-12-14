@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --primaryFont-Family: 'Orbitron', sans-serif;
+  --secondaryFont-Family: 'Courier Prime', monospace;
+
+  --primaryColor: #FFC000;
+  --secondaryColor: ;
+
+  --primaryBgColor: ;
+  --secondaryBgColor: ;
+
+  --primaryFont-Size: ;
+  --secondaryFont-Size: ;
+
+  --navbarBgColor: ;
+  --navLinkColor: ;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
